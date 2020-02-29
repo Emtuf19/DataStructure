@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +13,7 @@ namespace DataStructures
         {
             Stack st = new Stack();
 
-            Console.WriteLine("Input the number of elements to store");
+            Console.WriteLine("Input the number of values to store");
 
             int stSize = Convert.ToInt32(Console.ReadLine());
 
